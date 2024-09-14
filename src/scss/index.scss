@@ -1,9 +1,39 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../node_modules/bootstrap/scss/functions";
 
+$navcolor: rgb(203, 203, 212);
 
 
-* {
-    background-color: rgb(255, 255, 255);
+.navbar {
+    background-color: $navcolor;
+    
 }
 
+
+
+
+body {
+    background-color: rgb(187, 202, 201);
+}
+
+.btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+    
+  }
+  
+  .profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  
+  
+  .cardbody-color{
+    background-color: #ebf2fa;
+  }
+  
+  a{
+    text-decoration: none;
+  }
