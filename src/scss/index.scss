@@ -1,12 +1,14 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../node_modules/bootstrap/scss/functions";
 
+@import "feed";
+
 $navcolor: rgb(203, 203, 212);
 
 
 .navbar {
     background-color: $navcolor;
-    
+  
 }
 
 

@@ -11844,6 +11844,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.require {
+  color: red;
+}
+
 .navbar {
   background-color: rgb(203, 203, 212);
 }
