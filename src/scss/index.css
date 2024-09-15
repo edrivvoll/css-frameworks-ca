@@ -11844,12 +11844,24 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.red {
+  background-color: red;
+}
+
+.bg-color-follow {
+  background-color: #efefef;
+}
+
+.img-fluid {
+  width: 180px;
+}
+
 .require {
   color: red;
 }
 
 .navbar {
-  background-color: rgb(203, 203, 212);
+  background-color: #0d6efd;
 }
 
 body {
