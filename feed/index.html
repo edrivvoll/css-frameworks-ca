@@ -59,37 +59,40 @@
       </nav>
     </header>
     <main>
-        <div class="container py-3">
-            <form class="d-flex" role="search">
-                <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search" />
-                <button class="btn btn-primary" type="submit">
-                Search
-                </button>
-            </form>       
+        <div class="container py-3 "><!-- d-flex flex-sm-row -->
+          <div class="row d-flex justify-content-center">
+            <div class="col col-sm-10 col-md-8 col-lg-6 col-xl-5">
+              <form class="d-flex" role="search">
+                  <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search" />
+                  <button class="btn btn-primary" type="submit">
+                  Search
+                  </button>
+                  <div class="dropdown"></div>
+                  <button class="btn btn-secondary dropdown-toggle mx-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sort by:
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Relevance</a></li>
+                    <li><a class="dropdown-item" href="#">Date</a></li>
+                    <li><a class="dropdown-item" href="#">Name</a></li>
+                    <li><a class="dropdown-item" href="#">Comments</a></li>
+                  </ul>
+                </div>
+              </form>   
+            </div>    
+          </div>
         </div>
-        <div class="container py-3">        
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Sort by:
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Relevance</a></li>
-                  <li><a class="dropdown-item" href="#">Date</a></li>
-                  <li><a class="dropdown-item" href="#">Name</a></li>
-                  <li><a class="dropdown-item" href="#">Comments</a></li>
-                </ul>
-              </div>
-        </div>
+        
         <div class="container p-4">
           <h2>Recent posts:</h2>
           <div class="row">
             <div class="col-md-4 col-sm-6">
               <div class="card mb-4">
-                <img src="../node_modules/bootstrap-icons/icons/1-circle.svg" class="card-img-top p-4" alt="...">
+                <img src="../node_modules/bootstrap-icons/icons/1-circle.svg" class="card-img-top p-4" alt="1">
                 <div class="card-body">
                   <h5 class="card-title">Post 1</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -99,7 +102,7 @@
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="card mb-4">
-                <img src="../node_modules/bootstrap-icons/icons/2-circle.svg" class="card-img-top p-4" alt="...">
+                <img src="../node_modules/bootstrap-icons/icons/2-circle.svg" class="card-img-top p-4" alt="2">
                 <div class="card-body">
                   <h5 class="card-title">Post 2</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -109,7 +112,7 @@
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="card mb-4">
-                <img src="../node_modules/bootstrap-icons/icons/3-circle.svg" class="card-img-top p-4" alt="...">
+                <img src="../node_modules/bootstrap-icons/icons/3-circle.svg" class="card-img-top p-4" alt="3">
                 <div class="card-body">
                   <h5 class="card-title">Post 3</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -119,7 +122,7 @@
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="card mb-4">
-                <img src="../node_modules/bootstrap-icons/icons/4-circle.svg" class="card-img-top p-4" alt="...">
+                <img src="../node_modules/bootstrap-icons/icons/4-circle.svg" class="card-img-top p-4" alt="4">
                 <div class="card-body">
                   <h5 class="card-title">Post 4</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -129,7 +132,7 @@
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="card mb-4">
-                <img src="../node_modules/bootstrap-icons/icons/5-circle.svg" class="card-img-top p-4" alt="...">
+                <img src="../node_modules/bootstrap-icons/icons/5-circle.svg" class="card-img-top p-4" alt="5">
                 <div class="card-body">
                   <h5 class="card-title">Post 5</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -139,7 +142,7 @@
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="card mb-4">
-                <img src="../node_modules/bootstrap-icons/icons/6-circle.svg" class="card-img-top p-4" alt="...">
+                <img src="../node_modules/bootstrap-icons/icons/6-circle.svg" class="card-img-top p-4" alt="6">
                 <div class="card-body">
                   <h5 class="card-title">Post 6</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -175,6 +178,6 @@
     		  </form>
         </div>
     </main>
-    <footer class="bg-primary primary-color d-flex justify-content-center p-3 ">&copy;Copyright 2024</footer>
+    <footer class="bg-primary primary-color d-flex fixed-bottom justify-content-center p-3 ">&copy;Copyright 2024</footer>
   </body>
 </html>

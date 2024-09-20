@@ -59,13 +59,13 @@
       </nav>
     </header>
     <main>
-      <div class="container py-5 h-100">
+      <div class="container py-5">
         <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col col-md-9 col-lg-7 col-xl-5">
+          <div class="col col-md-9 col-lg-7 col-xl-9"> 
             <div class="card rounded-4">
               <div class="card-body p-4">
-                <div class="d-flex text-black">
-                  <div class="flex-shrink-0">
+                <div class="d-flex flex-column flex-md-row">
+                  <div class="">
                     <img src="../node_modules/bootstrap-icons/icons/person-square.svg" alt="Generic placeholder image" class="img-fluid">
                   </div>
                   <div class="flex-grow-1 ms-3">
@@ -94,76 +94,158 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
-      <!-- aaaa -->
-      <div class="container py-5 h-100">
+      <!-- Post section -->
+      <div class="container py-5">
         <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col col-md-9 col-lg-7 col-xl-5">
+          <div class="col col-md-9 col-lg-7 col-xl-9"> 
             <div class="card rounded-4">
               <div class="card-body p-4">
-                <div class="d-flex">
-                  <h5>Following</h5>
+                <div class="d-flex flex-column flex-md-row">
+                  
+                  <div class="container p-4">
+                    <h2>Recent posts:</h2>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-xl-4">
+                        <div class="card mb-4">
+                          <img src="../node_modules/bootstrap-icons/icons/1-circle.svg" class="card-img-top p-4" alt="1">
+                          <div class="card-body">
+                            <h5 class="card-title">Post 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xl-4">
+                        <div class="card mb-4">
+                          <img src="../node_modules/bootstrap-icons/icons/2-circle.svg" class="card-img-top p-4" alt="2">
+                          <div class="card-body">
+                            <h5 class="card-title">Post 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xl-4">
+                        <div class="card mb-4">
+                          <img src="../node_modules/bootstrap-icons/icons/3-circle.svg" class="card-img-top p-4" alt="3">
+                          <div class="card-body">
+                            <h5 class="card-title">Post 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xl-4">
+                        <div class="card mb-4">
+                          <img src="../node_modules/bootstrap-icons/icons/4-circle.svg" class="card-img-top p-4" alt="4">
+                          <div class="card-body">
+                            <h5 class="card-title">Post 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xl-4">
+                        <div class="card mb-4">
+                          <img src="../node_modules/bootstrap-icons/icons/5-circle.svg" class="card-img-top p-4" alt="5">
+                          <div class="card-body">
+                            <h5 class="card-title">Post 5</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xl-4">
+                        <div class="card mb-4">
+                          <img src="../node_modules/bootstrap-icons/icons/6-circle.svg" class="card-img-top p-4" alt="6">
+                          <div class="card-body">
+                            <h5 class="card-title">Post 6</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>  
+                  
                 </div>
-                <div class="card">
-                  <div class="card-body">
-                    User 1
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <!-- Following / Followers section -->
+      <div class="d-flex flex-column flex-xl-row">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-md-9 col-lg-7 col-xl-9">
+              <div class="card rounded-4">
+                <div class="card-body p-4">
+                  <div class="d-flex">
+                    <h5>Following</h5>
                   </div>
-                </div><div class="card">
-                  <div class="card-body">
-                    User 2
+                  <div class="card">
+                    <div class="card-body">
+                      User 1
+                    </div>
+                  </div><div class="card">
+                    <div class="card-body">
+                      User 2
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    User 3
+                  <div class="card">
+                    <div class="card-body">
+                      User 3
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    User 4
+                  <div class="card">
+                    <div class="card-body">
+                      User 4
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    User 5
+                  <div class="card">
+                    <div class="card-body">
+                      User 5
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container py-5 h-100">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col col-md-9 col-lg-7 col-xl-5">
-            <div class="card rounded-4">
-              <div class="card-body p-4">
-                <div class="d-flex">
-                  <h5>Followers</h5>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    User 1
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-md-9 col-lg-7 col-xl-9">
+              <div class="card rounded-4">
+                <div class="card-body p-4">
+                  <div class="d-flex">
+                    <h5>Followers</h5>
                   </div>
-                </div><div class="card">
-                  <div class="card-body">
-                    User 2
+                  <div class="card">
+                    <div class="card-body">
+                      User 1
+                    </div>
+                  </div><div class="card">
+                    <div class="card-body">
+                      User 2
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    User 3
+                  <div class="card">
+                    <div class="card-body">
+                      User 3
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    User 4
+                  <div class="card">
+                    <div class="card-body">
+                      User 4
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    User 5
+                  <div class="card">
+                    <div class="card-body">
+                      User 5
+                    </div>
                   </div>
                 </div>
               </div>
@@ -172,6 +254,6 @@
         </div>
       </div>
     </main>
-    <footer class="bg-primary primary-color d-flex justify-content-center p-3 ">&copy;Copyright 2024</footer>
+    <footer class="bg-primary primary-color d-flex fixed-bottom justify-content-center p-3 ">&copy;Copyright 2024</footer>
   </body>
 </html>
