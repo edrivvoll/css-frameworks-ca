@@ -8,6 +8,7 @@ $btn-hover-bg: lime; */
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11848,7 +11849,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); */
 .bg-color-follow {
   background-color: #efefef;
 }
